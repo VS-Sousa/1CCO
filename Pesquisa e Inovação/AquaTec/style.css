@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  background: black;
+  font-family: monospace;
+}
+
+.header {
+  border: 3px solid darkcyan;  
+}
+
+.header .container {
+  border: 3px solid pink;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header ul .aqui {
+  font-weight: 800;
+  color: darkcyan;
+}
+
+.titulo {
+  color: darkcyan;
+  border: 3px solid red;
+  width: fit-content;
+}
+
+.navBar {
+  color: #fff;
+  list-style: none;
+  border: 3px solid green;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  padding: 0;
+}
+
+ul li {
+  color: orange;
+}
