@@ -18,6 +18,8 @@ var sqlServerConfig = {
 }
 
 // CONEXÃO DO MYSQL WORKBENCH (LOCAL)
+// Deixei a configuração do MySQL local desse jeito para que não vaze senha
+// ou usuário de acesso
 var mySqlConfig = {
     host: "localhost",
     user: "SEU_USUARIO",

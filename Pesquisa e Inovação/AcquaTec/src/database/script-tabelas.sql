@@ -30,7 +30,7 @@ CREATE TABLE medida (
 	fk_aquario INT
 );
 
-
+ALTER TABLE usuario ADD cpf CHAR(14)
 
 
 /* para sql server - remoto - produção */
